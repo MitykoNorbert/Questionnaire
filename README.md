@@ -1,3 +1,14 @@
+# Neptun kód, név
+  BKTU1E - Mitykó Norbert
+  
+# PeerReviewhez Pontozási segédlet: 
+Hogy megkönnyítsem a pontozási folyamatot, összeírtam melyik elemeket hol találod a kódban, illetve azt is, hogy mi nincs, hogy ne kelljen erre pazarolnod az idődet.
+A segítség ebben a táblázatban van összeírva:
+https://docs.google.com/spreadsheets/d/1I2OZiu6uoHWfwFlsfkdu-nrdRaBw1AbaVJ3sGR-NNvk/edit?usp=sharing  
+Arra kérlek, hogy a pontozásnál ha lehet, ne járulj hozzá ahhoz, hogy megbukjak. A minimum elérendő pont 20 pont / 50% fölött
+  
+# Fontos!!! Ha regisztrálsz, valid, saját e-mail címet használj, amihez van elérésed, hiszen E-mail megerősítést küld a rendszer.
+
 # Questionnaire
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
