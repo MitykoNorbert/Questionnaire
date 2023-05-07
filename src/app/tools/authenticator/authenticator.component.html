@@ -1,0 +1,41 @@
+<div id="authenticator">
+    <mat-card id="authenticator-content">
+        <mat-card-header>
+            <mat-card-title>{{getStateText()}}</mat-card-title>
+        </mat-card-header>
+        <div *ngIf="isLoginState()">
+            <input #loginEmail placeholder="E-mail"/>
+            <input #loginPassword placeholder="Jelszó" type="password"/>
+            <button
+                (click)="onLogin(loginEmail,loginPassword)"
+            mat-flat-button color="warn">Belépés</button>
+        </div>
+        <div *ngIf="isRegisterState()">
+            <input #registerEmail placeholder="E-mail">
+            <input #registerPassword placeholder="Jelszó" type="password">
+            <input #registerConfirmPassword placeholder="Jelszó megerősítése" type="password">
+            <button 
+                (click)="onRegisterClick(
+                    registerEmail,
+                    registerPassword,
+                    registerConfirmPassword
+                )"
+            mat-flat-button color="warn">Felhasználó létrehozása</button>
+        </div>
+        <div *ngIf="isForgotPasswordState()">
+            <input #resetEmail placeholder="E-mail">
+            <button 
+                (click)="onResetClick(resetEmail)"
+            mat-flat-button color="warn">Jelszó visszaállítása</button>
+
+        </div>
+        <mat-card-actions align="end">
+            <button mat-flat-button
+            (click)="onForgotPasswordClick()">Elfelejtett jelszó</button>
+            <button mat-flat-button
+            (click)="onCreateAccountClick()">Regisztráció</button>
+            <button mat-flat-button
+            (click)="onLoginClick()">Belépés</button>
+        </mat-card-actions>
+    </mat-card>
+</div>

@@ -1,0 +1,21 @@
+<button *ngIf="!answeredMode" (click)="answerMode()" 
+mat-flat-button color="warn" id="switch-button">Kitöltött Kérdőívek</button>
+<button *ngIf="answeredMode" (click)="answerMode()" 
+mat-flat-button color="warn" id="switch-button">Összes kérdőív</button>
+<button *ngIf="!editMode" (click)="switchEditMode()" 
+mat-flat-button color="warn" id="switch-button2">Saját kérdőívek</button>
+<button *ngIf="editMode" (click)="editOff()" 
+mat-flat-button color="warn" id="switch-button">Összes kérdőív</button>
+
+
+<div id="post-feed">
+    <div *ngFor="let form of forms" >
+    <app-form [formData]="form"></app-form>
+    <button *ngIf="editMode" (click)="deleteForm(form)" 
+mat-fab color="warn"><mat-icon>close</mat-icon></button>
+    </div>
+</div>
+
+<button (click)="onCreateFormClick()" 
+mat-fab color="warn" id="post-button"><mat-icon>add</mat-icon></button>
+

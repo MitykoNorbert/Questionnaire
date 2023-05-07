@@ -1,0 +1,29 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Kérdőív készítése</mat-card-title>
+    </mat-card-header>
+    <div id="content-box">
+    <div>
+        <textarea #commentInput placeholder="Írd ide a címet"></textarea>
+    </div>
+    <div *ngFor="let question of questions">
+        <textarea placeholder="Kérdés" [(ngModel)]="question.text"></textarea>
+    </div>
+    </div>
+    <button mat-button color="primary" (click)="addQuestion()">+ Kérdés hozzáadása</button>
+    <button mat-button color="warn" (click)="removeQuestion()">- Kérdés eltávolítása</button>
+    <div *ngIf="selectedImageFile" id="post-preview"> 
+        <img id="post-preview-image"/>
+    </div>
+    
+    <mat-card-actions align="end">
+        <button mat-button color="warn">
+            <label for="photo-upload">
+            <input #photoSelector (change)="onPhotoSelected(photoSelector)"
+            id="photo-upload" type="file" accept="image/*"/>
+                <mat-icon>insert_photo</mat-icon>
+            </label>
+        </button>
+        <button (click)="onPostClick(commentInput)" mat-flat-button color="warn">Közzétesz</button>
+    </mat-card-actions>
+</mat-card>

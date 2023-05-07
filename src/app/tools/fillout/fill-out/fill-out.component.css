@@ -1,0 +1,22 @@
+textarea, label{
+    font-size: 1em;
+    padding: .5em;
+    resize: none;
+    width: 500px;
+    min-height: 10px;
+    
+}
+#title {
+    font-size: 1.5em;
+}
+
+#post-preview{
+    text-align:right;
+    margin-top: 1em;
+}
+
+
+#content-box {
+    max-height: 300px; 
+    overflow-y: scroll;
+  }

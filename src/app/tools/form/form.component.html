@@ -1,0 +1,19 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>{{creatorName}}</mat-card-title>
+        <mat-card-subtitle>{{creatorDescription}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{formData?.imageUrl}}">
+    <mat-card-content>
+        {{formData?.comment }}
+    </mat-card-content>
+    <mat-card-actions>
+        <div class="action-item" (click)="onFilloutClick()"><mat-icon class="action-item" color="warn">input</mat-icon>
+        Kitöltés</div>
+        
+        
+
+    </mat-card-actions>
+
+
+</mat-card>

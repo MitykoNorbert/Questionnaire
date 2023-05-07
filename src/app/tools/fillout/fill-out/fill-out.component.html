@@ -1,0 +1,21 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title id="title">{{title}}</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+
+        
+            <div *ngFor="let question of questions">
+              <label id="title">{{ question.text }}</label>
+              <br>
+              <textarea [(ngModel)]="question.answer"></textarea>
+
+            </div>
+          
+            <button (click)="onSubmitClick()" mat-raised-button color="primary" type="submit">Submit</button>
+          
+    </mat-card-content>
+</mat-card>
+
+
