@@ -1,5 +1,7 @@
-# Neptun kód, név
-  BKTU1E - Mitykó Norbert
+# BKTU1E - Mitykó Norbert
+Neptun kód, név
+# Questionnaire - Kérdőív kitöltő alkalmazás
+  
   
 # PeerReviewhez Pontozási segédlet: 
 Hogy megkönnyítsem a pontozási folyamatot, összeírtam melyik elemeket hol találod a kódban, illetve azt is, hogy mi nincs, hogy ne kelljen erre pazarolnod az idődet.
