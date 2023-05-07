@@ -1,6 +1,8 @@
 # BKTU1E - Mitykó Norbert
 Neptun kód, név
 # Questionnaire - Kérdőív kitöltő alkalmazás
+  itt éred el:
+-https://questionnaire-b129a.web.app/
   
   
 # PeerReviewhez Pontozási segédlet: 
@@ -17,11 +19,11 @@ https://docs.google.com/spreadsheets/d/1I2OZiu6uoHWfwFlsfkdu-nrdRaBw1AbaVJ3sGR-N
 
 
 
+---
 
 
 
-
-
+---
 
 
 
