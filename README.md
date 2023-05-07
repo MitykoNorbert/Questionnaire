@@ -12,6 +12,32 @@ https://docs.google.com/spreadsheets/d/1I2OZiu6uoHWfwFlsfkdu-nrdRaBw1AbaVJ3sGR-N
 # Fontos
 - Ha regisztrálsz, valid, saját e-mail címet használj, amihez van elérésed, hiszen E-mail megerősítést küld a rendszer.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Questionnaire
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
